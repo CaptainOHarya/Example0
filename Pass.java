@@ -39,6 +39,7 @@ class Pass {
            System.out.println("Первое число без дробной части = " + valueLong1);
            System.out.println("Второе число без дробной части = " + valueLong2);
            break;
+<<<<<<< HEAD
         case 4:
            // Код в этом блоке сработает, только если переменная choice = 3;
            // Отбросим дробную часть путём приведения чисел к типу long
@@ -47,6 +48,8 @@ class Pass {
            System.out.println("Первое число без дробной части = " + valueLong1);
            System.out.println("Второе число без дробной части = " + valueLong2);
            break;
+=======
+>>>>>>> double/pass
       default:
            // Код в этом блоке сработает, если пользователь ввёл неправильное число
            System.out.println("Вы ввели неправильное число, попробуйте ещё раз");     
